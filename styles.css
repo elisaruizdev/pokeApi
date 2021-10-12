@@ -1,0 +1,61 @@
+body {
+    margin:0px;
+    
+}
+
+.display {
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color:#a7434d;
+    color: whitesmoke;
+    justify-content: space-around;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform:uppercase;
+    text-align: center;
+
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #a7434d;
+}
+
+.header__img {
+    display: flex;
+    height: 400px;
+    padding: 10px;
+ 
+}
+
+.display__element {
+ padding: 10px;
+ margin: 10px;
+ border-radius: 30px;
+ color:rgb(19, 48, 19);
+ background-image: url("./images/degradado\ rombo.webp");
+ font-family: fantasy;
+ font-size: larger;
+}
+
+.display__name{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    color:rgb(87, 116, 87);
+    padding: 10px;
+    margin: 10px;
+    
+    
+    
+}
+
+.display__image {
+    border-radius: 20px;
+    background-color: white;
+    
+}
